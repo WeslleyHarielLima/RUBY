@@ -1,2 +1,46 @@
-VSCODE-PDF ABRIR OS ARQUIVOS PDF
-CODE RUNNER - PARA RODAR 
+EXTENSOES
+CODE RUNNER 
+VSCODE-PDF
+
+
+
+ROADMAP 
+Etapa 1: Fundamentos de Ruby
+Antes de mergulhar no Rails, é essencial ter uma compreensão sólida de Ruby, já que Rails é um framework baseado em Ruby.
+
+1.1 Introdução ao Ruby
+-Instalar Ruby: Comece instalando Ruby no seu computador (recomendo o RVM ou rbenv para gerenciar versões).
+-Sintaxe básica: Aprenda sobre variáveis, tipos de dados (strings, números, arrays, hashes).
+-Operadores: Como usar operadores aritméticos, lógicos e de comparação.
+-Métodos: Definir métodos, parâmetros e retornar valores.
+ 
+1.2 Conceitos Opcionais em Ruby
+-Classes e Objetos: Entenda a programação orientada a objetos (OOP). Como criar classes, instanciar objetos e usar atributos e métodos.
+-Herança: Como criar classes derivadas (subclasses) e herdar de classes base.
+-Módulos: Como usar módulos para organização de código.
+-Blocos e Procs: Como usar blocos de código, procs e lambdas.
+
+1.3 Trabalhando com Dados
+-Arrays e Hashes: Manipulação de coleções de dados.
+-Exceções: Aprenda a lidar com erros usando begin, rescue e ensure.
+
+Etapa 2: Conceitos Básicos do Rails
+1 Rotas
+-Defina rotas no arquivo config/routes.rb para mapear URLs para ações nos controladores.
+
+2 Controladores
+-Crie controladores para manipular as requisições e definir ações (index, show, new, edit, create, update, destroy).
+-Use o comando rails generate controller nome para gerar controladores e views.
+
+ 3.3 Modelos e Banco de Dados
+-ActiveRecord: O ORM do Rails para interagir com o banco de dados.
+-Migrations: Use migrações para alterar a estrutura do banco de dados.
+-CRUD: Criação, leitura, atualização e deleção de dados com ActiveRecord.
+ 
+3.4 Views e ERB
+-ERB (Embedded Ruby): Como criar e renderizar templates HTML com Ruby.
+-Formulários: Como criar formulários para criar e editar dados.
+-Layouts: Como usar layouts e partials para estruturar melhor as páginas.
+  3.5 Validations
+-Como adicionar validações em modelos para garantir dados consistentes.
+  
