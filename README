@@ -44,3 +44,57 @@ Etapa 2: Conceitos Básicos do Rails
   3.5 Validations
 -Como adicionar validações em modelos para garantir dados consistentes.
   
+
+PROJETOS
+
+1️⃣ Projetos básicos (Fundamentos)
+🔹 Calculadora Simples
+📌 Treina: Sintaxe básica, operadores, métodos
+📌 Descrição: Crie uma calculadora que recebe dois números e um operador (+, -, *, /) e retorna o resultado.
+
+🔹 Gerador de Senhas Aleatórias
+📌 Treina: Variáveis, strings, métodos
+📌 Descrição: O programa gera senhas seguras com letras, números e símbolos.
+
+🔹 Conversor de Temperatura
+📌 Treina: Variáveis, operadores, métodos
+📌 Descrição: Converta temperaturas entre Celsius, Fahrenheit e Kelvin.
+
+🔹 Contador de Palavras
+📌 Treina: Strings, métodos
+📌 Descrição: O usuário insere um texto e o programa conta quantas palavras e caracteres existem nele.
+
+2️⃣ Projetos intermediários (Orientação a Objetos e Estruturas de Dados)
+🔹 Lista de Tarefas (To-Do List) Simples
+📌 Treina: Arrays, métodos, exceções
+📌 Descrição: O usuário pode adicionar, remover e listar tarefas.
+
+🔹 Agenda de Contatos
+📌 Treina: Classes e Objetos, Arrays e Hashes
+📌 Descrição: Cada contato tem nome, telefone e e-mail. O programa permite adicionar, buscar e remover contatos.
+
+🔹 Jogo de Adivinhação
+📌 Treina: Loops, operadores de comparação
+📌 Descrição: O programa escolhe um número aleatório, e o jogador deve adivinhar recebendo dicas de "maior" ou "menor".
+
+3️⃣ Projetos avançados (Herança, Módulos, Blocos e Procs)
+🔹 Sistema Bancário Simples
+📌 Treina: Classes, herança, exceções
+📌 Descrição: Simule contas bancárias com depósitos, saques e transferências.
+
+🔹 Simulador de Carrinho de Compras
+📌 Treina: Classes, Arrays e Hashes, módulos
+📌 Descrição: O usuário adiciona itens ao carrinho, vê o total e finaliza a compra.
+
+🔹 Jogo da Forca
+📌 Treina: Classes, Arrays, exceções
+📌 Descrição: O usuário tenta adivinhar a palavra oculta antes de esgotar as tentativas.
+
+🔹 Sistema de Login Simples
+📌 Treina: Hashes, exceções, métodos
+📌 Descrição: Cadastre usuários e implemente autenticação com senha.
+
+🔹 Gerenciador de Notas de Alunos
+📌 Treina: Classes, herança, blocos e procs
+📌 Descrição: Armazena notas de alunos e calcula médias, aprovados e reprovados.
+
