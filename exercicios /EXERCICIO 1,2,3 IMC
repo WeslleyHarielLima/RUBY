@@ -1,0 +1,11 @@
+Enunciado:
+Crie um programa que leia o peso e a altura de uma pessoa e calcule o seu IMC (Índice de Massa Corporal). Com base no valor do IMC, o programa deve classificar a pessoa nas seguintes categorias:
+
+Abaixo do peso: IMC abaixo de 18.5
+Peso normal: IMC entre 18.5 e 24.9
+Sobrepeso: IMC entre 25 e 29.9
+Obesidade grau 1: IMC entre 30 e 34.9
+Obesidade grau 2: IMC entre 35 e 39.9
+Obesidade grau 3: IMC acima de 40
+O programa deve imprimir o IMC da pessoa e sua classificação de acordo com as faixas acima.
+
