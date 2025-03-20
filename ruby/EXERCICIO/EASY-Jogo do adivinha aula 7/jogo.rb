@@ -28,3 +28,5 @@ end
 # Criando uma instância do jogo e iniciando
 jogo = JogoAdivinhacao.new
 jogo.jogar
+
+
