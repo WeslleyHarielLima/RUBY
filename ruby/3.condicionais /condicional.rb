@@ -8,17 +8,12 @@
 # Verdade OU Falso = Verdade
 # Falso OU Falso = Falso
 # Falso OU Verdade = Verdade
-# NOT 
+# NOT
 # NÃO Verdade = Falso
 # NÃO Falso = Verdade
 
-
-
-puts false && true #falso e verdadeiro 
-puts false || true #falso ou verdadeiro
-puts !false && true #nao falso e verdadeiro 
-resultado 
-false
+puts false && true # falso e verdadeiro
+puts false || true # falso ou verdadeiro
+puts !false && true # nao falso e verdadeiro
+resultado
 true
-true
-

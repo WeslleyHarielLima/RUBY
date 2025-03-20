@@ -1,57 +1,53 @@
-
-
-
 class Pessoa
   attr_accessor :nome, :idade, :peso, :altura, :imc, :classificacao_imc
-  
+
   def initialize(nome, idade, peso, altura)
     @nome = nome
     @idade = idade.to_i
     @peso = peso.to_f
-    @altura = altura.to_f / 100  # Convertendo a altura de cm para metros
+    @altura = altura.to_f / 100 # Convertendo a altura de cm para metros
   end
 
   # Método para calcular o IMC
   def calcular_imc
-    @imc = (@peso / (@altura * @altura)).round(2)  # Cálculo do IMC
+    @imc = (@peso / (@altura * @altura)).round(2) # Cálculo do IMC
   end
 
   # Método para classificar o IMC
   def classificar_imc
-    if @imc < 18.5
-      @classificacao_imc = "Abaixo do peso"
-    elsif @imc >= 18.5 && @imc < 25.0
-      @classificacao_imc = "Peso normal"
-    elsif @imc >= 25.0 && @imc < 30.0
-      @classificacao_imc = "Sobrepeso"
-    elsif @imc >= 30.0 && @imc < 35.0
-      @classificacao_imc = "Obesidade grau I"
-    elsif @imc >= 35.0 && @imc < 40.0
-      @classificacao_imc = "Obesidade grau II (severa)"
-    else
-      @classificacao_imc = "Obesidade grau III (mórbida)"
-    end
+    @classificacao_imc = if @imc < 18.5
+                           'Abaixo do peso'
+                         elsif @imc >= 18.5 && @imc < 25.0
+                           'Peso normal'
+                         elsif @imc >= 25.0 && @imc < 30.0
+                           'Sobrepeso'
+                         elsif @imc >= 30.0 && @imc < 35.0
+                           'Obesidade grau I'
+                         elsif @imc >= 35.0 && @imc < 40.0
+                           'Obesidade grau II (severa)'
+                         else
+                           'Obesidade grau III (mórbida)'
+                         end
   end
 end
 
 # Entradas do usuário
-puts "DIGITE SEU NOME:"
+puts 'DIGITE SEU NOME:'
 nome = gets.chomp
 
-puts "DIGITE SUA IDADE:"
+puts 'DIGITE SUA IDADE:'
 idade = gets.chomp
 
-puts "DIGITE SEU PESO (em kg):"
-peso = gets.chomp.to_f   
+puts 'DIGITE SEU PESO (em kg):'
+peso = gets.chomp.to_f
 
-puts "DIGITE SUA ALTURA (em cm):"
-altura = gets.chomp.to_f   
+puts 'DIGITE SUA ALTURA (em cm):'
+altura = gets.chomp.to_f
 
 pessoa = Pessoa.new(nome, idade, peso, altura)
 
 # Calcular o IMC e classificar
 pessoa.calcular_imc
-
 
 # Exibindo os resultados
 
