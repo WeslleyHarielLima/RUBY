@@ -1,5 +1,0 @@
-A calculadora de juros compostos é uma ótima ideia. Vou te ajudar a construir um programa em Ruby para calcular os juros compostos.
-
-A fórmula para calcular juros compostos é:
-
-M = C x (1 + i)^t. Onde M é o montante acumulado, C é o capital inicialmente aplicado, i é a taxa de juros e t é o prazo, em períodos, da aplicação.
